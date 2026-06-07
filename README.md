@@ -2,6 +2,16 @@
 
 A full-featured Cricket Club Management web application built with **Laravel 9** and the **Eloquent ORM**. The system supports three distinct user roles — Admin, Club Manager, and Player — each with their own dashboard and feature set.
 
+Home page
+<img width="1380" height="728" alt="image" src="https://github.com/user-attachments/assets/eec2d696-585e-4b30-af96-af51cf0fd545" />
+
+Club dashboard
+<img width="1279" height="651" alt="image" src="https://github.com/user-attachments/assets/3f097ae2-c9fc-4bc5-af01-88ab3db2c412" />
+
+Admin dashboard
+<img width="1474" height="595" alt="image" src="https://github.com/user-attachments/assets/907ee2c5-3365-4a6a-9abc-a4091d4b4b46" />
+
+
 ---
 
 ## 📋 Table of Contents
