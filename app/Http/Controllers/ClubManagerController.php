@@ -213,7 +213,7 @@ class ClubManagerController extends Controller
     public function clubCoaches()
     {
         $clubid = Auth::guard('clubManager')->user()->id;
-        $coaches = Coach::where('coach_clubID', '!=', $clubid)->get();
+        $coaches = Coach::where('coach_clubID', '=', $clubid)->get();
         $category = PlayerCategory::all();
         $club = ClubManager::where('id', '=', $clubid)->first();
         $data = compact('coaches', 'category', 'club');
